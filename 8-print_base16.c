@@ -2,23 +2,20 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: Print base 16 numbers
+ * Description: prints alphabet in lowercase then uppercase
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char c;
-	char d = '0';
-	while (d <= '9')
+	int ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(d);
-		d++;
+		putchar(ch);
 	}
-	for (c = 'a'; c <= 'f'; c++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-		putchar(c);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
 }
-
