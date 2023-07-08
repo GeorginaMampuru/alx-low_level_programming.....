@@ -1,1 +1,1 @@
-Static libraries in C Programming
+staic libriries and linking
